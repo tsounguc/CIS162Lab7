@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=DiceGameGUI
+comment0.text=\r\n\ GUI\ for\ DiceGame\ lab\r\n\ \r\n\ @author\ Ana\ Posada\r\n\ @version\ October\ 2016\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ main\ method\ \r\n\ instantiates\ an\ object\ of\ the\ DiceGameGUI\ class\r\n
+comment2.params=
+comment2.target=DiceGameGUI()
+comment2.text=\r\n\ Position\ the\ three\ dice\ and\ buttons\ on\ the\ screen\r\n
+comment3.params=e
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.text=\r\n\ Handles\ the\ button\ and\ menu\ selections\r\n\r\n\ \ \ @param\ e\ the\ component\ that\ was\ pressed\r\n
+comment4.params=
+comment4.target=void\ setupMenus()
+comment4.text=\r\n\ Setup\ the\ file\ menu\ with\ two\ options\:\ quit\ and\ new\ game\r\n\ Menu\ items\ must\ register\ their\ Action\ Listeners\r\n
+comment5.params=
+comment5.target=void\ restart()
+comment5.text=\r\n\ restarts\ a\ game\r\n
+comment6.params=numStr
+comment6.target=boolean\ checkValidGuess(java.lang.String)
+comment6.text=\r\n\ returns\ true\ if\ numStr\ is\ a\ valid\ integer\ number\ between\ 1\ and\ 6\r\n\ returns\ false\ otherwise\r\n\ @param\ String\ -\ string\ to\ be\ converted\ to\ a\ number\r\n\ @return\ true\ if\ numStr\ is\ an\ int\ between\ 1\ and\ 6.\ \ Returns\ false\ otherwise.\r\n
+numComments=7
